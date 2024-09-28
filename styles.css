@@ -1,0 +1,176 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1f1f1f;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.logo {
+    color: #00adb5;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#hero {
+    height: 100vh;
+    background: linear-gradient(to right, #00adb5, #393e46);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.cta {
+    padding: 10px 20px;
+    background-color: #222831;
+    color: #00adb5;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta:hover {
+    background-color: #00adb5;
+    color: #fff;
+}
+
+/* About Section */
+#about {
+    padding: 50px;
+    background-color: #222831;
+    color: #fff;
+    text-align: center;
+}
+
+/* Projects Section */
+#projects {
+    padding: 50px;
+    background-color: #393e46;
+}
+
+.project-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project {
+    width: 30%;
+    background-color: #222831;
+    padding: 20px;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.project h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Skills Section */
+#skills {
+    padding: 50px;
+    background-color: #1f1f1f;
+    color: #fff;
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+}
+
+.skill {
+    margin: 10px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.skill p {
+    margin-top: 5px;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px;
+    background-color: #222831;
+    color: #fff;
+    text-align: center;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact-form input, #contact-form textarea {
+    width: 80%;
+    max-width: 600px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #00adb5;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #393e46;
+}
+
+/* Footer */
+footer {
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #fff;
+    font-size: 1.5rem;
+}
